@@ -1,0 +1,40 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "material-design-lite": "~1.0.5"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+    "material-design-lite": {
+      "main": [
+	"./src/material-design-lite.scss",
+        "./src/mdlComponentHandler.js",
+        "./src/third_party/**/*.js",
+        "./src/button/button.js",
+        "./src/checkbox/checkbox.js",
+        "./src/icon-toggle/icon-toggle.js",
+        "./src/menu/menu.js",
+        "./src/progress/progress.js",
+        "./src/radio/radio.js",
+        "./src/slider/slider.js",
+        "./src/spinner/spinner.js",
+        "./src/switch/switch.js",
+        "./src/tabs/tabs.js",
+        "./src/textfield/textfield.js",
+        "./src/tooltip/tooltip.js",
+        "./src/layout/layout.js",
+        "./src/data-table/data-table.js",
+        "./src/ripple/ripple.js"
+      ]
+    }
+  }
+}
