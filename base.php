@@ -21,7 +21,7 @@ href="http://browsehappy.com/">upgrade your browser</a> to improve your experien
           do_action('get_header');
           get_template_part('templates/header');
         ?>
-        <div class="mdl-layout__content" role="document">
+        <div class="mdl-layout__content basemdl-container" role="document">
           <div class="mdl-grid">
             <?php
             if (Config\display_sidebar()) :

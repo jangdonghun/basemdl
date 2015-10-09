@@ -14,6 +14,7 @@ $sage_includes = [
   'lib/init.php',                  // Initial theme setup and constants
   'lib/wrapper.php',               // Theme wrapper class
   'lib/config.php',                // Configuration
+  'lib/fonts.php',
   'lib/assets.php',                // Scripts and stylesheets
   'lib/titles.php',                // Page titles
   'lib/extras.php',                // Custom functions

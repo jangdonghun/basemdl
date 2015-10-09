@@ -66,6 +66,7 @@ function asset_path($filename) {
 }
 
 function assets() {
+  wp_enqueue_style('roboto/font', 'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en', false, null);
   wp_enqueue_style('mdl/icons', 'https://fonts.googleapis.com/icon?family=Material+Icons', false, null);
   wp_enqueue_style('sage/css', asset_path('styles/main.css'), false, null);
 
